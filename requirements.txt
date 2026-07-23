@@ -1,1 +1,46 @@
+# =============================================================
+# Bluestock Fintech — Data Analyst Internship
+# Combined requirements across all three projects.
+# Install with:  pip install -r requirements.txt
+# =============================================================
+
+# ---------- ETL & Data ----------
+pandas==2.2.*
+sqlalchemy==2.0.*
+psycopg2-binary
+openpyxl
+numpy
+requests
+
+# ---------- ML & Analytics ----------
+scikit-learn
+scipy
+matplotlib
+seaborn
+plotly
+statsmodels
+jupyter
+
+# ---------- Django Backend ----------
+django==4.2.*
+djangorestframework==3.15.*
+drf-spectacular
+django-filter
+djangorestframework-simplejwt
+django-redis
+celery[redis]
+django-cors-headers
+gunicorn
+bcrypt
+python-decouple
+
+# ---------- Testing & Quality ----------
+pytest
+pytest-django
+pytest-cov
+bandit
+safety
+black
+isort
+flake8
 
